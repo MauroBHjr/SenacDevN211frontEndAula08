@@ -1,5 +1,16 @@
+/*	Collor pallet
+		cream
+		#F9F5EB
+		darker cream
+		#EAE3D2
+		
+		blue
+		#607EAA
+		dark blue
+		#1C3879
+*/
 body{
-	background-color: lightgray;
+	background-color: #607EAA;
 	font-family: verdana;
 }
 .container{
@@ -9,26 +20,28 @@ body{
 }
 header{
 	width: 100%;
-	height: 180px;
-	background-image: linear-gradient(white, white, lightblue, lightgray, navy, purple);
+	height: 9rem;
+	background-image: linear-gradient(#1C3879, #607EAA, #EAE3D2, #EAE3D2, #F9F5EB, #F9F5EB, #F9F5EB, #EAE3D2, #EAE3D2, #607EAA, #1C3879);
 	text-align: center;
 	color: navy;
-	padding-top: 20px;
+	padding-top: 3.5rem;
+	border: double 0.4rem #607EAA; 
 }
 nav{
-	background-color: orange;
+	background-color: #1C3879;
 }
 nav a{
+		color:#EAE3D2;
 		transition: 400ms;
 }
 nav a:hover{
-	color: pink;
+	color: #607EAA;
 	font-size: 20px;
 }
 .horizontal{
 	width: 100%;
 	height:100px;
-	border: solid 5px black;
+	border: solid 0.4rem #607EAA;
 	text-align:center;
 	float: left;
 }
@@ -47,13 +60,38 @@ nav a:hover{
 .vertical li{
 	padding-top:5%;
 }
+.imagem{
+	width:50%;
+	height: 100%;
+	float: left;
+	background-color:pulple;
+}
 .imagem img{
 	width: 50%;
 	height: 50%;
 }
 section{
-	width: 80;
+	width: 80%;
+	height: 500px;
 	float: right;
 	background-color: aqua;
 	overflow: auto;
+}
+.texto{
+	float:left;
+	width:50%;
+	height:100;
+	overflow:auto;
+}
+.texto h1{
+	text-align: justify;
+	padding-right: 3%;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: purlple;
+	text-align: center;
+	color: white;
+	float: left;
 }
